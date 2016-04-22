@@ -1,9 +1,10 @@
 # CRUD_Node.js_MySQL
 
-Install: npm crud_node_mysql
+install: npm crud_node_mysql
 
 nodejs:  4.4.3
 
+www.npmjs.com address: https://www.npmjs.com/package/crud_node_mysql
 author:  frank-sun
 
 email:   luckysunfeng@gmail.com
