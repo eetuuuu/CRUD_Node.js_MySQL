@@ -1,0 +1,34 @@
+<%- include layouts/header.ejs %>
+        <div class="page-data">
+         <div class="data-table">
+             <table border="1" cellpadding="7" cellspacing="7">
+                <tr>
+                    <th width="50px">UserId</th>
+                    <th>UserTelephone</th>
+                    <th>UserName</th>
+                    <th>UserPassword</th>
+                </tr>
+                <% 
+                  if(resultdata.length){ 
+                %>
+                <tr>
+                    <td><%=resultdata[0].user_id%></td>
+                    <td><%=resultdata[0].user_tel%></td>
+                    <td><%=resultdata[0].user_name%></td>
+                    <td><%=resultdata[0].user_passwd%></td>
+                </tr>
+                <% 
+                  }
+                 else {
+                %> 
+                   <tr>
+                      <td colspan="4">No user</td>
+                   </tr>
+                <% 
+                 } 
+                %>
+            </table>
+         </div>
+        </div>
+<%- include layouts/footer.ejs %>
+
