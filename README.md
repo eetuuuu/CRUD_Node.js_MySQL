@@ -2,7 +2,11 @@
 
 install: npm crud_node_mysql
 
+start: npm app.js
+
 nodejs:  4.4.3
+
+express: 4.13.1 
 
 www.npmjs.com address: https://www.npmjs.com/package/crud_node_mysql
 
@@ -10,8 +14,7 @@ author:  frank-sun
 
 email:   luckysunfeng@gmail.com
 
-QQ: 568202560@qq.com
-
+QQ: 568202560
 
 Description:
   
